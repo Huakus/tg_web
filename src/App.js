@@ -1,6 +1,5 @@
 import './App.css';
-import TownView from './components/TownView';
-
+import TownView from './view/TownView';
 
 function App() {
   return (
