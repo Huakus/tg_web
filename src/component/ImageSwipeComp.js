@@ -24,13 +24,11 @@ function ImageSwipeComp({
                         navigation
                         pagination={{ clickable: true }}
                         scrollbar={{ draggable: true }}
-                        onSwiper={(swiper) => console.log(swiper)}
-                        onSlideChange={() => console.log('slide change')}
                     >
                         {imageList.map((item) => (
-                            <SwiperSlide >
-                                <Card sx={12}>
-                                <CardMedia sx={12}
+                            <SwiperSlide key={item.img} >
+                                <Card xs={12}>
+                                <CardMedia xs={12}
                                     component="img"
                                     image={`${item.img}?w=248&fit=crop&auto=format`}
                                     title={item.title}
