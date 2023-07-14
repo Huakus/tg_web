@@ -2,7 +2,7 @@ import React from "react";
 import Card from "@mui/material/Card";
 import Grid from "@mui/material/Grid";
 import ItemTextComp from "./ItemTextComp";
-import ImageSwipeComp from "./ImageSwipeComp";
+import ImageSwipeComp from "../image/ImageSwipeComp";
 
 function ItemComp({
     itemName='',

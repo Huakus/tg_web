@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import {Card, Grid} from "@mui/material";
 import { useParams } from "react-router-dom"; // Import useParams from react-router-dom
-import ItemComp from "../component/ItemComp";
+import ItemComp from "../component/item/ItemComp";
 
 function CityView() {
   const { cityId } = useParams(); // Get the townId from the route parameters

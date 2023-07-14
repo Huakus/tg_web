@@ -2,7 +2,7 @@ import React from "react";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 
-import LocationComp from "./LocationComp";
+import LocationComp from "../LocationComp";
 
 function ItemTextComp({
     title='',
